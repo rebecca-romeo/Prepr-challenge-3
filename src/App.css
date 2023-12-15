@@ -109,6 +109,104 @@ color: rgb(12, 159, 12);
   width: 260px;
 }
 
+/* MAIN */
+main {
+  padding: 80px 0;
+  background-color: #F3F7FC;
+}
+
+main h2 {
+  font-size: 2.4rem;
+}
+
+main h3 {
+  font-weight: 700;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.completeProfile {
+  color: #33B36D;
+  border-bottom: 1px solid #33B36D;
+  margin-left: 10px;
+}
+
+/* CARDS */
+
+.cardContainer  {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 1px #E9EAEB;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 100%;
+  border: 1px solid #D8DCDF;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0.5rem 1.5rem;
+  box-shadow: 2px 2px 12px rgb(192, 192, 192);
+}
+/* CARDS - PROGRESS */
+.progressStats {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 3rem;
+}
+
+.progressStats img {
+  max-width: 25px;
+  margin: 1rem;
+}
+
+/* CARDS - CONTINUE */
+.lastVisitedIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastVisitedIcon img {
+  max-width: 270px;
+  padding: 4rem 5rem;
+}
+
+.exploreMore {
+  background: #2ebb54;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-left: -50px;
+  cursor: pointer;
+}
+
+.exploreMore:hover  {
+  box-shadow: 2px 2px 12px rgb(166, 165, 165);
+}
+
+/* CARDS - UPCOMING */
+
+.eventContainer {
+  display: flex;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  padding: 1rem 0.5rem 1rem;
+}
+
+.eventContainer i {
+  padding-right: 1rem;
+}
+
+
 /* FOOTER */
 footer {
   border-top: 1px solid #D8DCDF;
