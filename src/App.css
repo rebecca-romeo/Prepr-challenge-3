@@ -108,3 +108,22 @@ color: rgb(12, 159, 12);
   border-radius: 0 5px 5px 0;
   width: 260px;
 }
+
+/* FOOTER */
+footer {
+  border-top: 1px solid #D8DCDF;
+  color: #727D92;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+footer a {
+  padding: 0 5px;
+  font-weight: bold;
+}
